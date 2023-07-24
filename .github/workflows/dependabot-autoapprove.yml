@@ -2,11 +2,6 @@ name: Auto approve
 
 on: pull_request_target
 
-permissions:
-  pull-requests: write
-  actions: write
-  statuses: write
-
 jobs:
   auto-approve:
     runs-on: ubuntu-latest
